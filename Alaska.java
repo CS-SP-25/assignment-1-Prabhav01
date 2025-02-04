@@ -3,8 +3,4 @@ public class Alaska extends State {
         setName("Alaska");
         setSalesTaxBehavior(new NoTax());
     }
-    @Override
-    public void displayTax(double amount){
-        super.displayTax(amount);
-    }
 }
