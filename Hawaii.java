@@ -3,9 +3,4 @@ public class Hawaii extends State {
         setName("Hawaii");
         setSalesTaxBehavior(new FortyFive_Tax());
     }
-
-    @Override
-    public void displayTax(double amount){
-        super.displayTax(amount);
-    }
 }
